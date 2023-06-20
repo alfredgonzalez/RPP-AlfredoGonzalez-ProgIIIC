@@ -1,0 +1,29 @@
+[
+    {
+        "_id": 1,
+        "_fecha": "20-06-2023",
+        "_email": "alfred@utn.com",
+        "_saborHelado": "Dulce de leche",
+        "_tipoHelado": "Crema",
+        "_stock": 3,
+        "_tipoVaso": "Plastico"
+    },
+    {
+        "_id": 2,
+        "_fecha": "20-06-2023",
+        "_email": "pepeargento@gmail",
+        "_saborHelado": "Frutilla",
+        "_tipoHelado": "Agua",
+        "_stock": 5,
+        "_tipoVaso": "Cucurucho"
+    },
+    {
+        "_id": 3,
+        "_fecha": "20-06-2023",
+        "_email": "cokiArgento@gmail.com",
+        "_saborHelado": "Frutilla",
+        "_tipoHelado": "Agua",
+        "_stock": 10,
+        "_tipoVaso": "Cucurucho"
+    }
+]

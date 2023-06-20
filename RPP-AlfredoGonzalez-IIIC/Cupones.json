@@ -1,0 +1,9 @@
+[
+    {
+        "_id": 3,
+        "_usuario": "cokiArgento@gmail.com",
+        "_fueUsado": true,
+        "_descuento": 10,
+        "_precioFinal": 9000
+    }
+]

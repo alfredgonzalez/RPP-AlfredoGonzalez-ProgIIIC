@@ -1,0 +1,401 @@
+{
+	"info": {
+		"_postman_id": "4d507f05-2329-42f1-b1f1-1ce4ff4fc842",
+		"name": "RPP-AlfredoGonzalez-PrograIIIC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21267876"
+	},
+	"item": [
+		{
+			"name": "ConsultasVentas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost/PP1-AlfredoGonzalez/RPP-AlfredoGonzalez-IIIC/index.php?accion=ConsultasVentas",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"PP1-AlfredoGonzalez",
+						"RPP-AlfredoGonzalez-IIIC",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "accion",
+							"value": "ConsultasVentas"
+						},
+						{
+							"key": "fecha",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "fecha1",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "fecha2",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "usuario",
+							"value": "alfred@utn.com",
+							"disabled": true
+						},
+						{
+							"key": "vaso",
+							"value": "Cucurucho",
+							"disabled": true
+						},
+						{
+							"key": "sabor",
+							"value": "Dulce de leche",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HeladeriaAlta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "require",
+							"value": "HeladeriaAlta",
+							"type": "text"
+						},
+						{
+							"key": "Sabor",
+							"value": "Dulce de leche",
+							"type": "text"
+						},
+						{
+							"key": "Precio",
+							"value": "1200",
+							"type": "text"
+						},
+						{
+							"key": "Tipo",
+							"value": "Crema",
+							"type": "text"
+						},
+						{
+							"key": "Vaso",
+							"value": "Plastico",
+							"type": "text"
+						},
+						{
+							"key": "Stock",
+							"value": "1500",
+							"type": "text"
+						},
+						{
+							"key": "Imagen",
+							"type": "file",
+							"src": "Helado-de-dulce-de-leche.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost/PP1-AlfredoGonzalez/RPP-AlfredoGonzalez-IIIC/index.php",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"PP1-AlfredoGonzalez",
+						"RPP-AlfredoGonzalez-IIIC",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "require",
+							"value": "HeladeriaAlta",
+							"disabled": true
+						},
+						{
+							"key": "Sabor",
+							"value": "Dulce de leche",
+							"disabled": true
+						},
+						{
+							"key": "Precio",
+							"value": "1200",
+							"disabled": true
+						},
+						{
+							"key": "Tipo",
+							"value": "Crema",
+							"disabled": true
+						},
+						{
+							"key": "Vaso",
+							"value": "Plastico",
+							"disabled": true
+						},
+						{
+							"key": "Stock",
+							"value": "1500",
+							"disabled": true
+						},
+						{
+							"key": "Imagen",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HeladoConsultar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "require",
+							"value": "HeladoConsultar",
+							"type": "text"
+						},
+						{
+							"key": "Sabor",
+							"value": "Dulce de leche",
+							"type": "text"
+						},
+						{
+							"key": "Tipo",
+							"value": "Cucurucho",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost/PP1-AlfredoGonzalez/RPP-AlfredoGonzalez-IIIC/index.php",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"PP1-AlfredoGonzalez",
+						"RPP-AlfredoGonzalez-IIIC",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AltaVenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "require",
+							"value": "AltaVenta",
+							"type": "text"
+						},
+						{
+							"key": "Sabor",
+							"value": "Dulce de leche",
+							"type": "text"
+						},
+						{
+							"key": "Email",
+							"value": "alfred@utn.com",
+							"type": "text"
+						},
+						{
+							"key": "Tipo",
+							"value": "Plastico",
+							"type": "text"
+						},
+						{
+							"key": "Stock",
+							"value": "20",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost/PP1-AlfredoGonzalez/RPP-AlfredoGonzalez-IIIC/index.php",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"PP1-AlfredoGonzalez",
+						"RPP-AlfredoGonzalez-IIIC",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ModificarVenta",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "alfred@utn.com",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "Agua",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "800",
+							"type": "text"
+						},
+						{
+							"key": "vaso",
+							"value": "Cucurucho",
+							"type": "text"
+						},
+						{
+							"key": "sabor",
+							"value": "Frutilla",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost/PP1-AlfredoGonzalez/RPP-AlfredoGonzalez-IIIC/index.php",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"PP1-AlfredoGonzalez",
+						"RPP-AlfredoGonzalez-IIIC",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DevolverHelado",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "require",
+							"value": "DevolverHelado",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "causa",
+							"value": "Mal estado",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost/PP1-AlfredoGonzalez/RPP-AlfredoGonzalez-IIIC/index.php",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"PP1-AlfredoGonzalez",
+						"RPP-AlfredoGonzalez-IIIC",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BorrarVenta",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"id\": 1\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost/PP1-AlfredoGonzalez/RPP-AlfredoGonzalez-IIIC/index.php",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"PP1-AlfredoGonzalez",
+						"RPP-AlfredoGonzalez-IIIC",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ConsultasDevoluciones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "?accion=ConsultasDevoluciones&DevolucionCupones&Cupones&Devoluciones",
+					"query": [
+						{
+							"key": "accion",
+							"value": "ConsultasDevoluciones"
+						},
+						{
+							"key": "DevolucionCupones",
+							"value": null
+						},
+						{
+							"key": "Cupones",
+							"value": null
+						},
+						{
+							"key": "Devoluciones",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

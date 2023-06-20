@@ -1,0 +1,34 @@
+[
+    {
+        "_id": 1,
+        "_sabor": "Dulce de leche",
+        "_precio": 1200,
+        "_tipo": "Crema",
+        "_vaso": "Plastico",
+        "_stock": 1497
+    },
+    {
+        "_id": 2,
+        "_sabor": "Frutilla",
+        "_precio": 1000,
+        "_tipo": "Agua",
+        "_vaso": "Cucurucho",
+        "_stock": 75
+    },
+    {
+        "_id": 3,
+        "_sabor": "Vainilla",
+        "_precio": 800,
+        "_tipo": "Crema",
+        "_vaso": "Cucurucho",
+        "_stock": 143
+    },
+    {
+        "_id": 4,
+        "_sabor": "Tramontana",
+        "_precio": 1200,
+        "_tipo": "Crema",
+        "_vaso": "Plastico",
+        "_stock": 235
+    }
+]
